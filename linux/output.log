@@ -1,0 +1,39 @@
+nohup: ignoring input
+flag provided but not defined: -gpuserver
+Usage of ./h9-miner-spacemesh-linux-amd64:
+  -aes
+    	aes performance test
+  -apiKey string
+    	Pool API Key
+  -challenge string
+    	Generate a proof challenge
+  -config string
+    	Config file (default "config.yaml")
+  -datadir string
+    	Spacemesh file system data directory path, after setting, will generate proof and verification
+  -gpuServer
+    	Enable GPU Plot service
+  -license string
+    	You need to agree to the Spacemesh license before mining,[yes,no]
+  -logPath string
+    	Log file path
+  -loop int
+    	Test PoST times (default 1)
+  -minerName string
+    	Miner device name
+  -nonces int
+    	Number of nonces tried in parallel in POST proving process. (default 16)
+  -performance string
+    	Test scan performance, [11H,23H]
+  -profile string
+    	Write profile to file
+  -ripemd
+    	ripemd performance test
+  -service string
+    	install, start, stop, uninstall services
+  -thread int
+    	Number of post threads (default 20)
+  -verify int
+    	randomly check the validity of the file, ranging from 1 to 100
+  -version
+    	Print miner version
